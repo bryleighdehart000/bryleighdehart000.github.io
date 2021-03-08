@@ -1,0 +1,110 @@
+!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Bryleigh's Cool Website </title>
+        <style>
+             body {
+                 background: rgb(204, 139, 139);
+                color: rgb(108, 106, 231);
+                padding: 10px;
+                font-family: arial;
+                 }
+            #all-contents {
+                  max-width: 800px;
+                  margin: auto;
+                 }
+
+            /* navigation menu */
+            nav {
+                 background: #222222;
+                 margin: 0 auto;
+                 display: flex;
+                 padding: 10px;
+                 margin-bottom: 20px;
+                 }
+             h1 {
+                 display: flex;
+                 align-items: center;
+                 color: white;
+                 flex: 1;
+                 margin: 0;
+                 }
+            #nav-ul {
+                 list-style-image: none;
+                 }
+            .nav-li {
+                 display: inline-block;
+                 padding: 0 10px;
+                 }
+             a {
+                 text-decoration: none;
+                 color: #fff;
+                }
+
+            /* main container area beneath menu */
+             main {
+                 background: rgb(214, 213, 213);
+                 display: flex;
+                }
+            .sidebar {
+                 margin-right: 25px;
+                 padding: 10px;
+                }
+             .sidebar-img {
+                  width: 200px;
+                  border: solid 4px rgb(187, 187, 71);
+                  padding: 8px;
+                 }
+             .content {
+                 flex: 1;
+                 padding: 15px;
+                }
+             #interests {
+                 border: 4px silver ridge;
+                 padding: 8px;
+                }
+            h2, h3 {
+                 margin: 0px;
+                 }
+</style>
+    </head>
+    
+    
+    <body> 
+        <!-- All content goes here-->
+        <div id="all-contents" >
+            <nav>
+                <h1> Bryleigh's cool Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li> 
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li> 
+                        <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <main>
+                <!-- Sidebar Section -->
+                <div class="sidebar">
+                    <img class="sidebar-img"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-U7WlGXWTXz8OLgZGlwaD6a_ZiIzb4_sqCie4KZ2N9uu1m6cl:https://post.healthline.com/wp-content/uploads/2020/01/woman-sleeping-asleep-alone-bed-1200x628-facebook.jpg&usqp=CAU" width="180">
+
+                </div>
+                <!-- Content Section -->
+                <div class="content">
+                    <h2> Bryleigh DeHart</h2>
+                    <p> Sophomore at Berwick High School</p>
+                    <!-- Interests Section -->
+                    <div id="interests"> 
+                        <h3> Interests</h3>
+                        <ul>
+                            <li> Sleeping</li>
+                            <li> Eating</li>
+                            <li> Playing softball</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>

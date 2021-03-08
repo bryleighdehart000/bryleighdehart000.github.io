@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Bryleigh's Website</title>
+</head>
+
+<body>
+<!-- All content goes here -->
+<div>
+<nav>
+ 
+</nav>
+ 
+<main>
+<!-- Sidebar Section -->
+<div>
+<img src="https://post.healthline.com/wp-content/uploads/2020/01/woman-sleeping-asleep-alone-bed-1200x628-facebook.jpg"
+ 
+<!-- Content Section -->
+<div>
+<h2>Bryleigh DeHart</h2>
+<p>I am a sophomore at Berwick High School</p>
+</div>
+<!-- Interests Section -->
+<div>
+    <style>
+    <h3> {color: lightslategrey;
+    background-color: lightpink;}
+     </style>
+<h3>Interests</h3>
+<ul>
+<li>Sleeping</li>
+<li>Watching netflix</li>
+<li>Going to my camp</li>
+
+</ul>
+</div>
+ 
+</main>
+ 
+</div>
+</body>
+
+    </html>
