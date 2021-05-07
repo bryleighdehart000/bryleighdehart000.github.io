@@ -34,8 +34,9 @@ var init = function (window) {
         // TODO 3 / 7 : Call the drawCircle() function 
         var loopsCompleted = 0; 
         while (loopsCompleted < 100) {
-        // loop 100 times
+        drawCircle()
         loopsCompleted++
+        };
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -86,10 +87,10 @@ var init = function (window) {
             if ( circle.y > canvas.height ) {
         circle.x = 0;
             };
-            if (y < 0) {
+            if (circle.y < 0) {
         circle.x = 0;
             };
-            if (x < 0) {
+            if (circle.x < 0) {
 		circle.x = 0;
             };
          // YOUR TODO 6 CODE ENDS HERE //////////////////////////
@@ -115,5 +116,5 @@ var init = function (window) {
 if((typeof process !== 'undefined') &&
     (typeof process.versions.node !== 'undefined')) {
     // here, export any references you need for tests //
-    module.exports = init.js; }
-}
+    module.exports = init.js
+    }
